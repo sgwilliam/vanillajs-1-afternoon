@@ -6,13 +6,18 @@
     <title>Styles</title>
     <link rel="stylesheet" href="./index.css" />
   </head>
-<body>
-  <header><h1>Poker Cards</h1></header>
-    <main>
-        <section><span>A</span><span>♦</span><span>A</span></section>
-        <section><span>A</span><span>♣</span><span>A</span></section>
-        <section><span>A</span><span>♥</span><span>A</span></section>
-        <section><span>A</span><span>♠</span><span>A</span></section>
-    </main>
-</body>
+  <body>
+    <header>Poker Cards</header>
+      <main>
+          <section id='diamond'><span>A</span><span>♦</span><span>A</span></section>
+          <section id='club'><span>A</span><span>♣</span><span>A</span></section>
+          <section id='heart'><span>A</span><span>♥</span><span>A</span></section>
+          <section id='spade'><span>A</span><span>♠</span><span>A</span></section>
+      </main>
+      <input id='idInput' type="text" placeholder='Suit'>
+      <input id='colorInput' type="text" placeholder='Choose a Color'>
+      <button id='button' onclick='setCard()'> Set Color </button>
+
+      <script src='./index.js'></script>
+  </body>
 </html>
